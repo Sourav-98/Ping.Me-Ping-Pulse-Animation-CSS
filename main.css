@@ -6,13 +6,13 @@ html, body{
 
 .container{
     height: 100%;
-    border: 1px solid black;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
+/* Ping Waves Animation Start */
 .ping-container{
     box-sizing: border-box;
     position: relative;
@@ -85,3 +85,4 @@ html, body{
         opacity: 0.0;
     }
 }
+/* Ping Waves Animation End */
